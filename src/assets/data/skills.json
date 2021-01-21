@@ -1,0 +1,48 @@
+[
+  {
+    "category": "Frontend Skills",
+    "skills": [
+      {
+        "skill": "HTML / Markdown",
+        "percentage": "85%"
+      },
+      {
+        "skill": "CSS / CSS-in-JS",
+        "percentage": "85%"
+      },
+      {
+        "skill": "Bootstrap / ChakraUI",
+        "percentage": "75%"
+      },
+      {
+        "skill": "JavaScript",
+        "percentage": "75%"
+      },
+      {
+        "skill": "React.js",
+        "percentage": "75%"
+      },
+      {
+        "skill": "Gatsby",
+        "percentage": "75%"
+      },
+      {
+        "skill": "Next.js",
+        "percentage": "50%"
+      }
+    ]
+  },
+  {
+    "category": "Backend Skills",
+    "skills": [
+      {
+        "skill": "Node.js / Express",
+        "percentage": "70%"
+      },
+      {
+        "skill": "MongoDB / Mongoose",
+        "percentage": "70%"
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Wenje Social Network",
+    "techs": ["React.js (CRA)", "Express", "Mongoose", "CSS"],
+    "details": "Responsive social network web app. Users can sign up or sign in, add posts, images (upload to Cloudinary), and comments, like/unlike posts, follow/unfollow other users, search users by name and edit user profile.",
+    "link": "https://wenje-client.herokuapp.com",
+    "repo": "https://github.com/atheistcode/wenje-client",
+    "image": "./imgs/wenje-min.png"
+  },
+  {
+    "title": "MeWays Static Website",
+    "techs": ["HTML", "CSS", "JavaScript"],
+    "details": "Responsive modern Website for a fictitious digital agency showcasing their services and previous work.",
+    "link": "https://atheistcode.github.io/meways",
+    "repo": "https://github.com/atheistcode/meways",
+    "image": "./imgs/meways-min.png"
+  },
+  {
+    "title": "ARNCODE",
+    "techs": ["React.js (Gatsby)", "Styled Components"],
+    "details": "My personal responsive website to show my portfolio, provide contact details and a contact form to send messages directly to my email.",
+    "link": "https://arncode.me",
+    "repo": "https://github.com/atheistcode/arncode",
+    "image": "./imgs/arncode-min.png"
+  }
+]

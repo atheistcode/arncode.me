@@ -1,0 +1,107 @@
+- level_1:
+    - name: JavaScript
+      hrefs:
+        - https://javascript.info/
+        - https://developer.mozilla.org/en-US/docs/Web/JavaScript
+      level_2:
+        - name: AJAX
+          hrefs: [https://github.com/axios/axios]
+        - name: Essential Packages
+          level_3:
+            - name: momentjs
+              hrefs: [https://momentjs.com/]
+            - name: hex-to-rgba
+              hrefs: [https://github.com/misund/hex-to-rgba]
+            - name: uuid
+              hrefs: [https://github.com/uuidjs/uuid]
+- level_1:
+    - name: React.js
+      hrefs:
+        - https://reactjs.org/
+      level_2:
+        - name: Create React App
+          hrefs: [https://create-react-app.dev/]
+          level_3:
+            - name: React Router
+              hrefs: [https://reactrouter.com/web]
+        - name: Next.js
+          hrefs: [https://nextjs.org/]
+        - name: Gatsby
+          hrefs: [https://www.gatsbyjs.com/]
+          # level_3:
+          #   - name: Working with Local Files
+          #     level_4:
+          #       - name: gatsby-source-filesystem
+          #         hrefs:
+          #           [https://www.gatsbyjs.com/plugins/gatsby-source-filesystem/]
+          #       - name: gatsby-transformer-json
+          #         hrefs:
+          #           [https://www.gatsbyjs.com/plugins/gatsby-transformer-json/]
+          #       - name: gatsby-transformer-yaml
+          #         hrefs:
+          #           [https://www.gatsbyjs.com/plugins/gatsby-transformer-yaml/]
+          #   - name: Styling and UI
+          #     level_4:
+          #       - name: styled-components
+          #         hrefs: [https://www.gatsbyjs.com/docs/styled-components/]
+          #       - name: gatsby-plugin-typography
+          #         hrefs:
+          #           [https://www.gatsbyjs.com/plugins/gatsby-plugin-typography/]
+          #       - name: gatsby-plugin-layout
+          #         hrefs:
+          #           [https://www.gatsbyjs.com/plugins/gatsby-plugin-layout/]
+          #       - name: gatsby-plugin-scroll-reveal
+          #         hrefs:
+          #           [
+          #             https://www.gatsbyjs.com/plugins/gatsby-plugin-scroll-reveal/,
+          #           ]
+          #       - name: gatsby-plugin-scroll-indicator
+          #         hrefs:
+          #           [
+          #             https://www.gatsbyjs.com/plugins/gatsby-plugin-scroll-indicator/,
+          #           ]
+          #       - name: gatsby-plugin-nprogress
+          #         hrefs:
+          #           [https://www.gatsbyjs.com/plugins/gatsby-plugin-nprogress/]
+          #   - name: Working with Images
+          #     level_4:
+          #       - name: gatsby-plugin-sharp
+          #         hrefs: [https://www.gatsbyjs.com/plugins/gatsby-plugin-sharp/]
+          #       - name: gatsby-transformer-sharp
+          #         hrefs:
+          #           [https://www.gatsbyjs.com/plugins/gatsby-transformer-sharp/]
+          #       - name: gatsby-image
+          #         hrefs: [https://www.gatsbyjs.com/plugins/gatsby-image/]
+          #       - name: gatsby-background-image
+          #         hrefs:
+          #           [https://www.gatsbyjs.com/plugins/gatsby-background-image/]
+          #   - name: Working with Markdown
+          #     level_4:
+          #       - name: gatsby-transformer-remark
+          #         hrefs:
+          #           [
+          #             https://www.gatsbyjs.com/plugins/gatsby-transformer-remark/,
+          #           ]
+          #       - name: gatsby-remark-reading-time
+          #         hrefs:
+          #           [
+          #             https://www.gatsbyjs.com/plugins/gatsby-remark-reading-time/,
+          #           ]
+- level_1:
+    - name: Reduxjs
+      hrefs:
+        - https://redux.js.org/
+      level_2:
+        - name: React Redux
+          hrefs: [https://react-redux.js.org/]
+        - name: Redux Toolkit
+          hrefs: [https://redux-toolkit.js.org/]
+- level_1:
+    - name: CSS
+      hrefs:
+        - https://developer.mozilla.org/en-US/docs/Web/CSS
+      level_2:
+        - name: Animation Tools
+          level_3:
+            - name: "cubic bezier"
+        - name: Design Tools
