@@ -3,8 +3,8 @@
     "title": "Wenje Social Network",
     "techs": ["React.js (CRA)", "Express", "Mongoose", "CSS"],
     "details": "Responsive social network web app. Users can sign up or sign in, add posts, images (upload to Cloudinary), and comments, like/unlike posts, follow/unfollow other users, search users by name and edit user profile.",
-    "link": "https://wenje-client.herokuapp.com",
-    "repo": "https://github.com/atheistcode/wenje-client",
+    "link": "https://wenje-front.herokuapp.com",
+    "repo": "https://github.com/atheistcode/wenje-frontend",
     "image": "./imgs/wenje-min.png"
   },
   {
