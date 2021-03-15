@@ -106,7 +106,7 @@ const IntroSection = () => {
           github
         }
       }
-      bg: file(relativePath: { eq: "images/introbg.webp" }) {
+      bg: file(relativePath: { eq: "images/introbg-min.jpg" }) {
         childImageSharp {
           fluid(quality: 90) {
             ...GatsbyImageSharpFluid_withWebp

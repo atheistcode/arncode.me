@@ -141,7 +141,7 @@ const Credits = styled.span`
 const ContactSection = () => {
   const data = useStaticQuery(graphql`
     query {
-      bg: file(relativePath: { eq: "images/contactbg.webp" }) {
+      bg: file(relativePath: { eq: "images/contactbg-min.jpg" }) {
         childImageSharp {
           fluid(quality: 90) {
             ...GatsbyImageSharpFluid_withWebp
