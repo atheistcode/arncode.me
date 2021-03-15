@@ -1,16 +1,17 @@
 export const COLOR = {
-  primary: "#FC0B56",
-  dark: "#100007",
-  secondary: "#F7F0F5",
+  primary: "#d62828",
+  secondary: "#BEEE62",
+  dark: "#000000",
+  light: "#EAEAEA",
   white: "#FFFFFF",
   black: "#000000",
 }
 
 export const FONT_SIZE = {
   xs: "1.2rem",
-  sm: "1.5rem",
-  n: "1.7rem",
-  lg: "1.9rem",
+  sm: "1.6rem",
+  n: "1.8rem",
+  lg: "2rem",
 }
 
 export const BOX_SHADOW = {

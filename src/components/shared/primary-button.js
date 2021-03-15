@@ -13,13 +13,7 @@ const StyledPrimaryButton = styled(Button)`
   }
 
   &:hover {
-    border-color: ${props => props.theme.color.primary};
     background-color: ${props => props.theme.color.dark};
-    color: ${props => props.theme.color.primary};
-  }
-
-  &:hover + * {
-    color: ${props => props.theme.color.primary};
   }
 `
 

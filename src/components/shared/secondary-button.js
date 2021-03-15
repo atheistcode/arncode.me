@@ -13,7 +13,7 @@ const StyledSecondaryButton = styled(Button)`
   }
 
   &:hover {
-    border-color: ${props => props.theme.color.secondary};
+    border: 0.2rem solid ${props => props.theme.color.secondary};
     background-color: ${props => props.theme.color.dark};
     color: ${props => props.theme.color.secondary};
   }

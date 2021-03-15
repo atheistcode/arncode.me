@@ -19,4 +19,4 @@ const StyledProjectBackground = styled(ProjectBackground)`
   background-position: top center;
 `
 
-export { StyledProjectBackground as default }
+export default StyledProjectBackground

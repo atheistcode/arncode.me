@@ -4,16 +4,16 @@ import scrollTo from "gatsby-plugin-smoothscroll"
 
 const StyledNavLink = styled.li`
   margin-left: 3rem;
-  padding: 0.5rem;
-  border-radius: 0.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  padding: 1rem;
   color: ${props => props.theme.color.white};
   font-weight: bold;
-  cursor: pointer;
   transition: ${props => props.theme.transition.quick};
 
   &:hover {
-    background-color: ${props => props.theme.color.secondary};
-    color: ${props => props.theme.color.dark};
+    background-color: ${props => props.theme.color.black};
+    color: ${props => props.theme.color.primary};
   }
 `
 

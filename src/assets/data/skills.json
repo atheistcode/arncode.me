@@ -3,32 +3,32 @@
     "category": "Frontend Skills",
     "skills": [
       {
-        "skill": "HTML / Markdown",
-        "percentage": "85%"
+        "skill": "HTML",
+        "percentage": "90%"
       },
       {
-        "skill": "CSS / CSS-in-JS",
+        "skill": "JavaScript",
+        "percentage": "80%"
+      },
+      {
+        "skill": "React.js",
+        "percentage": "80%"
+      },
+      {
+        "skill": "Next.js",
+        "percentage": "75%"
+      },
+      {
+        "skill": "Gatsby",
+        "percentage": "65%"
+      },
+      {
+        "skill": "CSS / CSS-in-JS / Sass",
         "percentage": "85%"
       },
       {
         "skill": "Bootstrap / ChakraUI",
         "percentage": "75%"
-      },
-      {
-        "skill": "JavaScript",
-        "percentage": "75%"
-      },
-      {
-        "skill": "React.js",
-        "percentage": "75%"
-      },
-      {
-        "skill": "Gatsby",
-        "percentage": "75%"
-      },
-      {
-        "skill": "Next.js",
-        "percentage": "50%"
       }
     ]
   },

@@ -14,30 +14,66 @@ import Footer from "./footer"
 import SEO from "./seo"
 
 const GlobalStyles = createGlobalStyle`
-/* RESET STYLES */
+/* RESET & BASE STYLES */
 *,
 *::before,
 *::after {
+  box-sizing: inherit;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 html {
+  box-sizing: border-box;
+  line-height: 1.7;
+  text-rendering: optimizeSpeed;
+  scroll-behavior: smooth;
   /* To make calculations easier when using rem */
   /* Add normal font later to the body element */
-  font-size: 10px;
+  font-size: 62.5%;
+
+  @media screen and (max-width: 48em) {
+  font-size: 50%;
+
+  }
 }
 
 body {
-  scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
+  font-family: 'roboto', sans-serif;
+  font-size: ${props => props.theme.fontSize.n}; 
+}
+
+section {
+  padding: 8rem 1.5rem;
+}
+
+h1,h2,h3,h4 {
+  font-family: 'oswald', sans-serif;
+}
+
+h1 {
+  font-size: 4.2rem;
+}
+
+h2 {
+  font-size: 3.6rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.4rem;
+}
+
+ul {
+  list-style-type: none;
 }
 
 img {
-  max-width: 100%;
   display: block;
+  max-width: 100%;
 }
 
 input,
@@ -59,9 +95,15 @@ textarea {
   overflow: auto;
 }
 
+button {
+  cursor: pointer;
+  line-height: 1;
+}
+
 a {
-  color: inherit;
+  display: inline-block;
   text-decoration: none;
+  color: inherit;
 }
 a:active,
 a:hover {
@@ -77,65 +119,10 @@ a:hover {
     scroll-behavior: auto !important;
   }
 }
-
-/* COMMON STYLES */
-body {
-  color: ${props => props.theme.color.dark};
-  font-family: 'roboto', sans-serif;
-  font-size: ${props => props.theme.fontSize.n};
-}
-
-section {
-  padding: 10rem 1.5rem;
-
-  @media (max-width: 50em) {
-    padding: 5rem 1.5rem;
-  }
-}
-
-h1,h2,h3,h4 {
-  font-family: 'oswald', sans-serif;
-}
-
-h1 {
-  font-size: 3.6rem;
-
-  @media (max-width: 50em) {
-    font-size: 3rem;
-  }
-}
-
-h2 {
-  font-size: 3rem;
-  
-  @media (max-width: 50em) {
-    font-size: 2.4rem;
-  }
-}
-
-h3 {
-  font-size: 2.4rem;
-
-  @media (max-width: 50em) {
-    font-size: 1.8rem;
-  }
-}
-
-h4 {
-  font-size: 1.8rem;
-}
-
-p {
-  line-height: 2;
-}
-
-ul {
-  list-style-type: none;
-}
 `
 
 const Layout = ({ children }) => {
-  // handle drawer
+  /* handle drawer */
   const [isDrawerOpen, setIsDrawerOpen] = useState(false)
 
   const toggleDrawer = () => {

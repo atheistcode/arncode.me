@@ -2,39 +2,27 @@ import React from "react"
 import styled from "styled-components"
 
 const StyledButton = styled.input`
-  padding: 0.8rem;
-  border: 0.2rem solid inherit;
+  overflow: hidden;
+  border: 0.2rem solid ${props => props.theme.color.white};
   border-radius: 0.4rem;
   box-shadow: ${props => props.theme.shadow.type1};
-  font-size: ${props => props.theme.fontSize.sm};
-  font-weight: bold;
-  text-transform: uppercase;
   cursor: pointer;
+  padding: 1.5rem 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
   transition: ${props => props.theme.transition.quick};
-  overflow: hidden;
-
-  @media (max-width: 50em) {
-    font-size: ${props => props.theme.fontSize.sm};
-  }
 `
 const StyledAnchor = styled.a`
-  display: inline-block;
-  padding: 0.8rem;
-  border: 0.2rem solid inherit;
+  overflow: hidden;
+  border: 0.2rem solid ${props => props.theme.color.white};
   border-radius: 0.4rem;
   box-shadow: ${props => props.theme.shadow.type1};
-  text-transform: uppercase;
-  font-size: ${props => props.theme.fontSize.sm};
-  font-weight: bold;
   cursor: pointer;
+  padding: 1.5rem 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
   transition: ${props => props.theme.transition.quick};
-  overflow: hidden;
-
-  @media (max-width: 50em) {
-    font-size: ${props => props.theme.fontSize.sm};
-  }
 `
-
 const Button = ({ type, href, children, onClick, className }) => {
   if (href) {
     return (

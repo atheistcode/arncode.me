@@ -1,6 +1,6 @@
 import { keyframes, css } from "styled-components"
 
-// display animation
+/* display animation */
 const displayKeyframe = keyframes`
   from {
     opacity: 0;
@@ -16,7 +16,7 @@ const displayCssAnim = css`
   animation-fill-mode: backwards;
 `
 
-// width animation
+/* width animation */
 const widthKeyframe = keyframes`
   from {
     width: 10%;
@@ -32,7 +32,7 @@ const widthCssAnim = css`
   animation-fill-mode: backwards;
 `
 
-// export to theme
+/* export to theme */
 export const ANIMAION = {
   display: displayCssAnim,
   width: widthCssAnim,

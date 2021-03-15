@@ -5,8 +5,8 @@ const StyledFooter = styled.footer`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem 1rem;
   background-color: ${props => props.theme.color.dark};
+  padding: 2rem 1rem;
   color: ${props => props.theme.color.secondary};
 
   & > *:nth-child(2) {

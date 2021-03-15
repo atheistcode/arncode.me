@@ -5,9 +5,9 @@ import Fade from "react-reveal/Reveal"
 const Container = styled.div`
   width: 100%;
   min-height: 2.6rem;
-  border: 0.1rem solid ${props => props.theme.color.secondary};
+  border: 0.1rem solid ${props => props.theme.color.black};
   border-radius: 0.4rem;
-  background-color: ${props => props.theme.color.secondary};
+  background-color: ${props => props.theme.color.light};
 `
 const Completed = styled.span`
   display: flex;
@@ -15,8 +15,8 @@ const Completed = styled.span`
   align-items: center;
   width: ${props => props.completed};
   border-radius: 0.4rem;
-  padding: 0.2rem 1rem;
   background-color: ${props => props.theme.color.dark};
+  padding: 0.2rem 1rem;
   color: ${props => props.theme.color.white};
   white-space: pre;
   ${props => props.theme.animation.width};

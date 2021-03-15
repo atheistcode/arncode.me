@@ -5,18 +5,18 @@ import { faLink } from "@fortawesome/free-solid-svg-icons"
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
 
 const StyledCaption = styled.div`
-  position: absolute;
-  bottom: 0;
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding: 1.2rem 0.8rem;
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  transform: translateY(100%);
+  width: 100%;
   border-top: 0.2rem solid ${props => props.theme.color.dark};
   background-color: ${props => props.theme.color.primary};
+  padding: 1.2rem 0.8rem;
   color: ${props => props.theme.color.white};
-  opacity: 0;
-  transform: translateY(100%);
   transition: ${props => props.theme.transition.normal};
 `
 const IconsContainer = styled.div`
@@ -29,16 +29,16 @@ const IconsContainer = styled.div`
   }
 `
 const VisitIcon = styled(FontAwesomeIcon).attrs({ icon: faLink })`
-  font-size: 2rem;
-  cursor: pointer;
   transform: translateY(100%);
+  cursor: pointer;
+  font-size: 2rem;
   transition: ${props => props.theme.transition.normal};
   transition-delay: 120ms;
 `
 const GithubIcon = styled(FontAwesomeIcon).attrs({ icon: faGithub })`
-  font-size: 2rem;
-  cursor: pointer;
   transform: translateY(100%);
+  cursor: pointer;
+  font-size: 2rem;
   transition: ${props => props.theme.transition.normal};
   transition-delay: 160ms;
 `

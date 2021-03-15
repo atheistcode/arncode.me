@@ -8,14 +8,14 @@ import PrimaryButton from "./primary-button"
 import SecondaryButton from "./secondary-button"
 
 const Container = styled.div`
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `
 const Icon = styled(FontAwesomeIcon)`
-  position: absolute;
-  top: 1.18rem;
   margin-left: -2.8rem;
-  font-size: ${props => props.theme.fontSize.sm};
   cursor: pointer;
+  font-size: 1.25rem;
   transition: ${props => props.theme.transition.quick};
 `
 const StyledDownloadButton = styled(Button)`

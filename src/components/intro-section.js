@@ -19,7 +19,6 @@ const Background = ({ image, children, className }) => {
 }
 
 const StyledBackground = styled(Background)`
-  background-position: bottom;
   background-attachment: fixed;
 
   @media (max-width: 50em) {
@@ -30,22 +29,20 @@ const StyledBackground = styled(Background)`
     }
   }
 `
-
 const Section = styled.section`
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
-  width: 100%;
   min-height: ${props => props.height};
-  padding: 4.5rem 1.5rem 2rem 1.5rem;
-  background-color: ${props => hexToRgba(props.theme.color.dark, "0.8")};
+  line-height: 1.5;
+  background-color: ${props => hexToRgba(props.theme.color.dark, "0.75")};
+  padding: 2rem 1.5rem;
   color: ${props => props.theme.color.white};
   text-align: center;
 `
 const AvatarWrapper = styled.div`
-  width: 12rem;
-  height: 12rem;
+  width: 16rem;
+  height: 16rem;
   margin-top: auto;
   margin-bottom: 4rem;
   border: 0.4rem solid ${props => props.theme.color.white};
@@ -54,18 +51,17 @@ const AvatarWrapper = styled.div`
   filter: brightness(160%);
 `
 const Avatar = styled(Img)`
-  margin-left: -1rem;
+  margin-top: -0.5rem;
+  margin-left: -1.2rem;
 `
-const MainText = styled.h1`
+const Heading1 = styled.h1`
   margin-bottom: 1rem;
 `
-const SubText = styled.p`
+const Heading2 = styled.h2`
   margin-bottom: 4rem;
-  color: ${props => props.theme.color.secondary};
-  font-size: ${props => props.theme.fontSize.lg};
 
-  @media (max-width: 50em) {
-    font-size: ${props => props.theme.fontSize.n};
+  & > span {
+    color: ${props => props.theme.color.primary};
   }
 `
 const ContactsContainer = styled.div``
@@ -73,7 +69,7 @@ const IconsContainer = styled.div`
   display: flex;
   justify-content: space-around;
   max-width: 8rem;
-  margin: 0 auto 2rem auto;
+  margin: 0 auto 3rem auto;
 `
 const IconWrapper = styled.a`
   display: flex;
@@ -106,13 +102,11 @@ const IntroSection = () => {
     query {
       site {
         siteMetadata {
-          main_intro_text
-          sub_intro_text
           linkedin
           github
         }
       }
-      bg: file(relativePath: { eq: "images/introbg.jpg" }) {
+      bg: file(relativePath: { eq: "images/introbg.webp" }) {
         childImageSharp {
           fluid(quality: 90) {
             ...GatsbyImageSharpFluid_withWebp
@@ -121,7 +115,7 @@ const IntroSection = () => {
       }
       avatar: file(relativePath: { eq: "images/avatar.jpg" }) {
         childImageSharp {
-          fixed(width: 120, height: 120, quality: 90) {
+          fixed(width: 160, height: 160, quality: 90) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -140,21 +134,24 @@ const IntroSection = () => {
         >
           <Avatar fixed={data.avatar.childImageSharp.fixed} alt="Me" />
         </AvatarWrapper>
-        <MainText
+
+        <Heading1
           data-sal="slide-down"
           data-sal-easing="ease"
           data-sal-duration="300"
         >
-          {data.site.siteMetadata.main_intro_text}
-        </MainText>
-        <SubText
+          Welcome!
+        </Heading1>
+
+        <Heading2
           data-sal="slide-down"
           data-sal-easing="ease"
           data-sal-duration="300"
           data-sal-delay="300"
         >
-          {data.site.siteMetadata.sub_intro_text}
-        </SubText>
+          I'm Ahmed Rezk. A <span>Web Developer.</span>
+        </Heading2>
+
         <ContactsContainer
           data-sal="slide-left"
           data-sal-easing="ease"
@@ -177,10 +174,12 @@ const IntroSection = () => {
               <ContactsIcon icon={faGithub} />
             </IconWrapper>
           </IconsContainer>
+
           <PrimaryButton onClick={() => scrollTo("#contact-section")}>
             Contact Me
           </PrimaryButton>
         </ContactsContainer>
+
         <Credits>
           Photo by{" "}
           <a

@@ -34,7 +34,6 @@
     "gatsby-source-filesystem": "^2.3.35",
     "gatsby-transformer-json": "^2.4.15",
     "gatsby-transformer-sharp": "^2.5.20",
-    "gatsby-transformer-yaml": "^2.4.15",
     "hex-to-rgba": "^2.0.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",

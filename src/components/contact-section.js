@@ -41,8 +41,8 @@ const ContactCard = styled.section`
   flex-direction: column;
   align-items: center;
   margin: auto;
-  color: ${props => props.theme.color.white};
-  background-color: ${props => hexToRgba(props.theme.color.dark, "0.6")};
+  background-color: ${props => hexToRgba(props.theme.color.light, "0.8")};
+  color: ${props => props.theme.color.black};
 
   & > * {
     ${props => props.theme.animation.display};
@@ -96,9 +96,9 @@ const Input = styled.input`
   min-width: 20rem;
   width: 49.2%;
   margin-bottom: 1rem;
-  padding: 0.7rem 1.5rem;
-  border: 0.1rem solid ${props => props.theme.color.secondary};
-  border-radius: 0.2rem;
+  border: 0.1rem solid ${props => props.theme.color.light};
+  border-radius: 0.4rem;
+  padding: 1rem 1.5rem;
   transition: ${props => props.theme.transition.quick};
 
   &:focus {
@@ -118,14 +118,14 @@ const Input = styled.input`
   }
 `
 const Textarea = styled.textarea`
+  resize: none;
   width: 100%;
   min-height: 20rem;
   margin-bottom: 2rem;
+  border: 0.1rem solid ${props => props.theme.color.light};
+  border-radius: 0.4rem;
   padding: 0.7rem 1.5rem;
-  border: 0.1rem solid ${props => props.theme.color.secondary};
-  border-radius: 0.2rem;
   transition: ${props => props.theme.transition.quick};
-  resize: none;
 
   &:focus {
     border-color: ${props => props.theme.color.primary};
@@ -141,7 +141,7 @@ const Credits = styled.span`
 const ContactSection = () => {
   const data = useStaticQuery(graphql`
     query {
-      bg: file(relativePath: { eq: "images/contactbg.jpg" }) {
+      bg: file(relativePath: { eq: "images/contactbg.webp" }) {
         childImageSharp {
           fluid(quality: 90) {
             ...GatsbyImageSharpFluid_withWebp
