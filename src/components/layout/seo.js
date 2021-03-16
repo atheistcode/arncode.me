@@ -21,11 +21,11 @@ const SEO = ({ title, description }) => {
   const { pathname } = useLocation()
 
   const seo = {
-    title: title || data.site.siteMetadata.defaultTitle,
-    description: description || data.site.siteMetadata.defaultDescription,
+    title: data.site.siteMetadata.title,
+    description: data.site.siteMetadata.description,
+    author: data.site.siteMetadata.author,
     url: `${data.site.siteMetadata.siteUrl}${pathname}`,
     image: `${data.site.siteMetadata.siteUrl}${data.site.siteMetadata.image}`,
-    author: data.site.siteMetadata.autor,
   }
 
   return (

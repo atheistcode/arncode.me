@@ -9,7 +9,7 @@ module.exports = {
     siteUrl: "https://arncode.me",
     image: "/apple-touch-icon.png",
     author: "Ahmed Rezk",
-    about_author: `Hello! I am Ahmed Rezk, a Web Developer passionate about programming and love building modern performant web applications.\nI started work as a financial auditor for seven years with multiple reputable companies in Home country and abroad. I found myself into coding and programming so I decided to follow my passion and currently I enjoy what I am doing.`,
+    about_author: `Hello! I am Ahmed Rezk, a self-taught web developer, passionate about programming and love building modern performant web applications.\nI started work as a financial auditor for seven years with multiple reputable companies in Home country and abroad. I found myself into coding and programming so I decided to follow my passion and currently I enjoy what I am doing.`,
     email: "ahmed@arncode.me",
     phone: "+20 102 711 3447",
     location: "Cairo, Egypt",
