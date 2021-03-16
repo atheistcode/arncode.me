@@ -87,11 +87,6 @@ const ContactsIcon = styled(FontAwesomeIcon)`
     color: ${props => props.theme.color.primary};
   }
 `
-const Credits = styled.span`
-  margin-top: auto;
-  color: ${props => hexToRgba(props.theme.color.white, "0.25")};
-  font-size: ${props => props.theme.fontSize.xs};
-`
 
 const IntroSection = () => {
   const [sectionHeight, setSectionHeight] = useState("992px")
@@ -179,25 +174,6 @@ const IntroSection = () => {
             Contact Me
           </PrimaryButton>
         </ContactsContainer>
-
-        <Credits>
-          Photo by{" "}
-          <a
-            href="https://unsplash.com/@nasa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            NASA
-          </a>{" "}
-          on{" "}
-          <a
-            href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Unsplash
-          </a>
-        </Credits>
       </Section>
     </StyledBackground>
   )
