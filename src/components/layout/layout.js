@@ -23,6 +23,11 @@ const GlobalStyles = createGlobalStyle`
   padding: 0;
 }
 
+*::selection {
+  background-color: ${props => props.theme.color.primary};
+  color: ${props => props.theme.color.white};
+}
+
 html {
   box-sizing: border-box;
   line-height: 1.7;
