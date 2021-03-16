@@ -32,6 +32,7 @@ const StyledBackground = styled(Background)`
 const Section = styled.section`
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   min-height: ${props => props.height};
   line-height: 1.5;
@@ -43,17 +44,12 @@ const Section = styled.section`
 const AvatarWrapper = styled.div`
   width: 16rem;
   height: 16rem;
-  margin-top: auto;
   margin-bottom: 4rem;
   border: 0.4rem solid ${props => props.theme.color.white};
   border-radius: 50%;
   overflow: hidden;
-  filter: brightness(160%);
 `
-const Avatar = styled(Img)`
-  margin-top: -0.5rem;
-  margin-left: -1.2rem;
-`
+const Avatar = styled(Img)``
 const Heading1 = styled.h1`
   margin-bottom: 1rem;
 `
@@ -108,7 +104,7 @@ const IntroSection = () => {
           }
         }
       }
-      avatar: file(relativePath: { eq: "images/avatar.jpg" }) {
+      avatar: file(relativePath: { eq: "images/avatar-min.jpg" }) {
         childImageSharp {
           fixed(width: 160, height: 160, quality: 90) {
             ...GatsbyImageSharpFixed
