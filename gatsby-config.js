@@ -13,8 +13,8 @@ module.exports = {
     email: "ahmed@arncode.me",
     phone: "+20 102 711 3447",
     location: "Cairo, Egypt",
-    github: "https://github.com/atheistcode",
-    linkedin: "https://www.linkedin.com/in/ahmed-rezk-10",
+    github: "https://github.com/ahmile",
+    linkedin: "https://www.linkedin.com/in/ahmile",
   },
   plugins: [
     `gatsby-plugin-styled-components`,

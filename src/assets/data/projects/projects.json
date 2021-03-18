@@ -4,7 +4,7 @@
     "techs": ["React.js (CRA)", "Express", "Mongoose", "CSS"],
     "details": "Responsive social network web app. Users can [sign up/in, add posts/comments, upload images (stored in Cloudinary), like/unlike posts, follow/unfollow other users, search by user name, edit profile].",
     "link": "https://wenje-front.herokuapp.com",
-    "repo": "https://github.com/atheistcode/wenje-frontend",
+    "repo": "https://github.com/ahmile/wenje-frontend",
     "image": "./imgs/wenje-min.png"
   },
   {
@@ -12,7 +12,7 @@
     "techs": ["HTML", "Sass", "JavaScript", "Web APIs"],
     "details": "Responsive modern Website for a fictitious IT services company showcasing their services and previous work.",
     "link": "https://nitrosoft.netlify.com",
-    "repo": "https://github.com/atheistcode/nitrosoft",
+    "repo": "https://github.com/ahmile/nitrosoft",
     "image": "./imgs/nitrosoft-min.png"
   },
   {
@@ -20,15 +20,15 @@
     "techs": ["React.js (Gatsby)", "Styled Components"],
     "details": "My personal website to list my portfolio, provide contact details and a contact form to send messages directly to my email.",
     "link": "https://arncode.me",
-    "repo": "https://github.com/atheistcode/arncode",
+    "repo": "https://github.com/ahmile/arncode",
     "image": "./imgs/arncode.me-min.png"
   },
   {
     "title": "MeWays Static Website",
     "techs": ["HTML", "CSS", "JavaScript"],
     "details": "Responsive modern Website for a fictitious digital agency showcasing their services and previous work.",
-    "link": "https://atheistcode.github.io/meways",
-    "repo": "https://github.com/atheistcode/meways",
+    "link": "https://ahmile.github.io/meways",
+    "repo": "https://github.com/ahmile/meways",
     "image": "./imgs/meways-min.png"
   }
 ]
