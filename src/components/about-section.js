@@ -68,10 +68,14 @@ const AboutSection = () => {
 
   useEffect(() => {
     let str = data.site.siteMetadata.about_author.replace(
-      "Ahmed Rezk",
-      `<b>Ahmed Rezk</b>`
+      "Self-motivated and ambitious Web Developer",
+      `<b>Self-motivated and ambitious Web Developer</b>`
     )
-    str = str.replace("Web Developer", `<b>Web Developer</b>`)
+    str = str.replace("I started work", `<b>I started work</b>`)
+    str = str.replace(
+      "I found myself into programming",
+      `<b>I found myself into programming</b>`
+    )
     setAboutMe(str)
   }, [data.site.siteMetadata.about_author])
 

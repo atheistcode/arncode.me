@@ -16,7 +16,7 @@ const Completed = styled.span`
   width: ${props => props.completed};
   border-radius: 0.4rem;
   background-color: ${props => props.theme.color.dark};
-  padding: 0.2rem 1rem;
+  padding: 0.1rem 1rem;
   color: ${props => props.theme.color.white};
   white-space: pre;
   ${props => props.theme.animation.width};

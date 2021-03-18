@@ -7,6 +7,10 @@
         "percentage": "90%"
       },
       {
+        "skill": "CSS / Sass / CSS-in-JS",
+        "percentage": "85%"
+      },
+      {
         "skill": "JavaScript",
         "percentage": "80%"
       },
@@ -23,11 +27,7 @@
         "percentage": "65%"
       },
       {
-        "skill": "CSS / CSS-in-JS / Sass",
-        "percentage": "85%"
-      },
-      {
-        "skill": "Bootstrap / ChakraUI",
+        "skill": "Bootstrap / Chakra",
         "percentage": "75%"
       }
     ]
