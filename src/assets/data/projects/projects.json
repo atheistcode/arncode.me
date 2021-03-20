@@ -1,7 +1,7 @@
 [
   {
     "title": "Wenje Social Network",
-    "techs": ["React.js (CRA)", "Express", "Mongoose", "CSS"],
+    "techs": ["React (CRA)", "Express", "Mongoose", "CSS"],
     "details": "Responsive social network web app. Users can [sign up/in, add posts/comments, upload images (stored in Cloudinary), like/unlike posts, follow/unfollow other users, search by user name, edit profile].",
     "link": "https://wenje-front.herokuapp.com",
     "repo": "https://github.com/ahmile/wenje-frontend",
@@ -17,7 +17,7 @@
   },
   {
     "title": "Arncode.me",
-    "techs": ["React.js (Gatsby)", "Styled Components"],
+    "techs": ["React (Gatsby)", "Styled Components"],
     "details": "My personal website to list my portfolio, provide contact details and a contact form to send messages directly to my email.",
     "link": "https://arncode.me",
     "repo": "https://github.com/ahmile/arncode",
