@@ -11,7 +11,7 @@
     "title": "NitroSoft",
     "techs": ["HTML", "Sass", "JavaScript", "Web APIs"],
     "details": "Responsive modern Website for a fictitious IT services company showcasing their services and previous work.",
-    "link": "https://nitrosoft.netlify.com",
+    "link": "https://nitrosoft.netlify.app",
     "repo": "https://github.com/ahmile/nitrosoft",
     "image": "./imgs/nitrosoft-min.png"
   },
