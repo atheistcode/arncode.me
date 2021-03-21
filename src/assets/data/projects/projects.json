@@ -16,12 +16,12 @@
     "image": "./imgs/nitrosoft-min.png"
   },
   {
-    "title": "Arncode.me",
+    "title": "Arncode",
     "techs": ["React (Gatsby)", "Styled Components"],
     "details": "My personal website to list my portfolio, provide contact details and a contact form to send messages directly to my email.",
     "link": "https://arncode.me",
     "repo": "https://github.com/ahmile/arncode",
-    "image": "./imgs/arncode.me-min.png"
+    "image": "./imgs/arncode-min.png"
   },
   {
     "title": "MeWays Static Website",
