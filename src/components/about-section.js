@@ -7,7 +7,7 @@ import PrimaryButton from "./shared/primary-button"
 import DownloadButton from "./shared/download-button"
 import SkillsCategoryContainer from "./skills-category-container"
 
-import resume from "../assets/ahmed-rezk-resume.pdf"
+// import resume from "../assets/ahmed-rezk-resume.pdf"
 
 const Section = styled.section`
   display: flex;
@@ -98,7 +98,7 @@ const AboutSection = () => {
       ></Para>
       <BtnsContainer>
         <PrimaryButton href="#portfolio-section">MY PORTFOLIO</PrimaryButton>
-        <DownloadButton secondary href={resume} download>
+        <DownloadButton secondary>
           MY RESUME
         </DownloadButton>
       </BtnsContainer>

@@ -45,11 +45,6 @@ const Logo = styled.div`
   & span:nth-child(1) {
     color: ${props => props.theme.color.white};
   }
-
-  & span:nth-child(3) {
-    color: ${props => props.theme.color.white};
-    font-size: ${props => props.theme.fontSize.sm};
-  }
 `
 const NavList = styled.ul`
   display: flex;
@@ -102,9 +97,8 @@ const MainHeader = ({ toggleDrawer }) => {
       <Navigation>
         <Logo logoSize={logoSize} onClick={() => scrollTo("#intro-section")}>
           <p>
-            <span>ARN</span>
-            <span>CODE</span>
-            <span>.me</span>
+            <span>AHMD</span>
+            <span>RZK</span>
           </p>
         </Logo>
         <NavList>

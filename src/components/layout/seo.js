@@ -43,11 +43,12 @@ const SEO = ({ title, description }) => {
       <meta property="twitter:description" content={seo.description} />
       <meta property="twitter:url" content={seo.url} />
       <meta property="twitter:image" content={seo.image} />
-      <script>
+      {/* Script related to a deleted Clicky account. */}
+      {/* <script>
         var clicky_site_ids = clicky_site_ids || [];
         clicky_site_ids.push(101288471);
       </script>
-      <script async src="//static.getclicky.com/js"></script>
+      <script async src="//static.getclicky.com/js"></script> */}
     </Helmet>
   )
 }
